@@ -1,0 +1,1 @@
+/home/vjuanillas/scratch1/PROJECTS/3K_base_filtered_set_per_chromosome/convert_binaryPlink_to_pedmap.slurm
