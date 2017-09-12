@@ -14,12 +14,13 @@
 ## load modules
 
 SOFTWARE_DIR="/home/vjuanillas/scratch1/software"
+DATA_DIR="/data/3kgenomes/snp-sets-3krg"
 
 ## does not accespt symbolic link
 ## copy instead
-cp /data/3kgenomes/snp-sets-3krg/base_filtered_v0.7.bed.gz .
-cp /data/3kgenomes/snp-sets-3krg/base_filtered_v0.7.bim.gz .
-cp /data/3kgenomes/snp-sets-3krg/base_filtered_v0.7.fam.gz .
+cp $DATA_DIR/base_filtered_v0.7.bed.gz .
+cp $DATA_DIR/base_filtered_v0.7.bim.gz .
+cp $DATA_DIR/base_filtered_v0.7.fam.gz .
 
 ## decompress
 gunzip base_filtered_v0.7.bed.gz
